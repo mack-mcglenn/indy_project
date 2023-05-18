@@ -5,8 +5,8 @@ Nicolas Cage has undoubtedly one of the most eclectic filmographies in Hollywood
 ___________________________________________________________________________________________________________________________
 ### Deliverables
 
-    Github Repo w/ Final Notebook and README
-    Wrangle.py module to store the functions used in this project
+   - Github Repo w/ Final Notebook and README
+   - Wrangle.py module to store the functions used in this project
     
 ### Project Outline
 
@@ -19,9 +19,9 @@ ________________________________________________________________________________
 
 ### Acquisition
 
-Acquired from: Kaggle
-Original Creator:  Em Highland (ehartlett)
-Original Shape: 100 rows x 6 columns
+- Acquired from: Kaggle
+- Original Creator:  Em Highland (ehartlett)
+- Original Shape: 100 rows x 6 columns
 
 ![89B0D7EB-B782-43C6-84DB-5E0EDBAB33AF](https://github.com/mack-mcglenn/indy_project/assets/122935207/b0fa578c-4f44-43fc-9118-6ba50b8f59a7)
 
@@ -50,4 +50,18 @@ This was a fun dataset to work with. I'd like to revisit it in the future to see
 Here's a treat for making it all the way to the bottom:
 
 ![image](https://github.com/mack-mcglenn/indy_project/assets/122935207/960dad28-35cb-4efa-b249-2eac4b730f95)
+
+## P.S. If you want to recreate this project, here's how:
+
+1. Use the following steps:
+**Acquire & Prep**
+- pd.read_csv('nickyc_dd.csv').drop(index=[10,11])
+- wr.acq_nic()
+- assign_genre(Movie)
+- wr.prep_nic(df)
+**Explore**
+Tableau Visualization Embed links found in final notebook
+**Suggestion Algorithm**
+- wr.suggestion(nic)
+2. Run the nic_cage_final.ipynb file in this repository
 
